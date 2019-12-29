@@ -22,7 +22,7 @@
       </header>
 
       <div class="container mx-auto px-2 py-2">
-        {{ range sort .Data.Pages "Date" "desc" }}
+        {{ range sort .Site.RegularPages "Date" "desc" }}
           {{ partial "post_block.html" . }}
         {{ end }}
       </div>
@@ -31,7 +31,7 @@
 
 
     <div class="container mx-auto px-2 py-2">
-      {{ range sort .Data.Pages "Date" "desc" }}
+      {{ range sort .Site.RegularPages "Date" "desc" }}
         {{ partial "post_block.html" . }}
       {{ end }}
     </div>

@@ -1,11 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Athena Hugo Theme"
-theme = "athena-hugo-theme"
 themesDir = "../.."
-
-#disableKinds = "taxonomyTerm"
-theme = "../.."
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]

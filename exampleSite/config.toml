@@ -5,6 +5,8 @@ theme = "athena-hugo-theme"
 themesDir = "../.."
 
 #disableKinds = "taxonomyTerm"
+theme = "../.."
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 description = "A clean and readable Hugo theme (port of https://github.com/broccolini/athena)"
